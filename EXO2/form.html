@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h2>Contact</h2>
+
+        <div>
+            <label for="title">Titre</label>
+            <input type="text" name="title" id="title">
+        </div>
+        <div>
+            <label for="artist">Artist</label>
+            <input type="text" name="artist" id="artist">
+        </div>
+        <div>
+            <label for="parution_date">Date de parution</label>
+            <!-- what is the type of case for ID -->
+            <input type="datetime" name="parution_date" id="parution_date">
+        </div>
+        <div>
+            <label for="refrence_image">Image de référence</label>
+            <input type="file" name="refrence_image" id="refrence_image">
+        </div>
+        <div>
+            <label for="refrence_link">Lien de référence</label>
+            <input type="url" name="refrence_link" id="refrence_link">
+        </div>
+
+        <div>
+            <label for="media_type">Choose a flavor:</label>
+            <input list="media_types" id="media_type" name="media_type" />
+
+            <datalist id="media_types">
+                <option value="littérature"></option>
+                <option value="cinéma"></option>
+                <option value="musique"></option>
+                <option value="jeu"></option>
+            </datalist>
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="newsletter">S'inscrire à la newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
