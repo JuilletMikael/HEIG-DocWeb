@@ -1,0 +1,54 @@
+ul > li { 
+    /* Décandant direct */
+    color: red;
+}
+
+nav li { 
+    /* Décandant  */
+    color: red;
+}
+
+img + a {
+    /* Voisinage */
+    color : orange;
+}
+
+nav img & a {
+    background-color: aqua;
+}
+
+/* 
+    an + b : an = groupes, b quel élément on veux sélectioner de chaque groupe 
+    odd = 2n+1 impaire 
+    even = 2n paire
+*/
+li:nth-child(5n + 1) {
+
+
+}
+
+/*  Has a children */
+li:has(> img) {
+
+} 
+
+p::first-line {
+    font-size: 2rem;
+}
+
+::selection {
+    background-color: brown;
+}
+
+/* 
+user agent = nav 
+user = 
+author = nous
+
+ordre
+!important est une mauvaise chose 
+!important useragent 
+!important author
+normal useragent 
+normal useragent
+*/

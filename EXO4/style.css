@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+article > h2 {
+    border-bottom: 1px dotted brown;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(255, 100%, 45%);
+}
+
+article:last-of-type {
+    margin-bottom: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0 2rem;
+}
+
+a[href^="mailto:"]::before {
+    content : "✉️";
+}
+
+aside ul li:nth-of-type(2n + 1) {
+    background-color: blueviolet;
+    color: white;
+}
+
+aside ul {
+    margin: 2rem 0;
+}
+
+aside ul li {
+    list-style: "";
+    padding: 0.5rem;
+}

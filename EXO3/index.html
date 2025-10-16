@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Player</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+        Ipsum ut quibusdam nobis expedita dignissimos! Dolore
+        sint ducimus voluptatum ab iste velit cumque. Vel porro architecto magni eos dolores deleniti id!
+    </p>
+
+    <aside>
+        <!-- TODO : complete search -->
+        <search>...</search>
         <nav>
             <ul>
                 <li>
@@ -25,7 +34,9 @@
                 </li>
             </ul>
         </nav>
+    </aside>
 
+    <header>
         <!-- TODO : Maybe this can be outside but it is also a navigation trow a playlist -->
         <div>
             <button>
@@ -46,15 +57,16 @@
 
             <figure>
                 <img src="/EXO3/assets/covers/born-to-run.jpg" alt="Thunder Road from Bruce Springsteen album cover.">
+                <audio>
+                    <source src="/EXO3/assets/Yarin_Primak.mp3" type="audio/mpeg">
+                </audio>
                 <figcaption>
                     <strong>Thunder Road</strong> <br>
                     Bruce Springsteen - Born to run
                 </figcaption>
             </figure>
 
-            <audio>
-                <source src="/EXO3/assets/Yarin_Primak.mp3" type="audio/mpeg">
-            </audio>
+
 
             <input type="range" value="50">
 
@@ -65,6 +77,7 @@
         <figure>
             <img src="/EXO3/assets/covers/madvillainy.webp" alt="madvillainy cover">
             <figcaption>
+                <!-- todo : strong doit être dans un block p ?  -->
                 <strong>madvillainy</strong><br>
                 madvillainy
             </figcaption>
