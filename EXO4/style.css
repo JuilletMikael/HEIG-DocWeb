@@ -1,6 +1,10 @@
+/* un peu plus couteux que dans le body */
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: sans-serif;
 }
 
@@ -9,7 +13,7 @@
     font-size: 3rem;
 }
 
-article > h2 {
+article>h2 {
     border-bottom: 1px dotted brown;
 }
 
@@ -25,7 +29,7 @@ article:last-of-type {
     margin-bottom: 2rem;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -34,7 +38,7 @@ nav ul{
 }
 
 a[href^="mailto:"]::before {
-    content : "✉️";
+    content: "✉️";
 }
 
 aside ul li:nth-of-type(2n + 1) {
