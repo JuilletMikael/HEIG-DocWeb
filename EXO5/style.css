@@ -41,6 +41,10 @@ section#overflow {
 /* 
 ne pas oublier > 
 */
+section#image {
+    width: 100%;
+    height: 30vh;
+}
 
 section#image>img {
     width: 100%;
