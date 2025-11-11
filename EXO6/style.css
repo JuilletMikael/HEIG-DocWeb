@@ -1,0 +1,107 @@
+/*
+display :  
+vertical-align a mettre sur l'élément le plus grand dans le block inligne parent (VIEUX !!)
+text-align dans le parent pas inlign
+
+-> essayer de ne pas utiliser inline-bloc
+
+direction : 
+CSS logical properties and values 
+
+*/
+
+/*  Starter html and css file */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 1.5rem 3rem 1rem 3rem;
+    color: white;
+} 
+
+header {
+    margin-bottom: 1.5rem;
+}
+
+nav {
+    background-color: #FD5353;
+    padding: 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul > li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+nav ul > li:first-child {
+    padding-left: 2rem;
+}
+
+main {
+    background-color: #5000FF;
+    position: relative;
+}
+
+#sticker {
+    display: block;
+    position: absolute;
+    width: 200px;
+    right: 50px;
+    top: -90px;
+}
+
+.large-text {
+    font-size: 2rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+main > p {
+    padding: 1rem 4rem;
+}
+
+main > p:nth-of-type(1) {
+    padding: 2rem;
+}
+
+main > p:nth-of-type(2) {
+    padding-top: 2rem;
+}
+
+main > p:nth-of-type(4) {
+    padding-bottom: 2rem;
+}
+
+main > img {
+    display: block;
+}
+
+#getting-there > img {
+    display: inline-block;
+    vertical-align : middle;
+    width: 50%;
+}
+
+#getting-there > address {
+    display: inline-block;
+    vertical-align : middle;
+    text-align: center;
+    width: 49%;    
+    padding: 1rem;
+}
+
