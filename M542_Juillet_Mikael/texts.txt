@@ -1,0 +1,60 @@
+[Meta]
+- Titre de la page : "Jeff Rosenstock - NODREAM"
+
+[En-tête]
+- Navigation :
+  • "Store"
+  • "Artists"
+  • "News"
+  • "Tours"
+
+[Colonne gauche]
+- Image de couverture : alt="HELLMODE Album Cover"
+- Autocollant : (sans attribut alt)
+
+[Colonne droite]
+- Texte introductif : "Introducing"
+- Titre principal : "NO DREAM"
+- Liste des pistes :
+    "NO TIME"
+    "Nikes (alt)"
+    "Scram!"
+    "N O D R E A M"
+    "State Line"
+    "f a m e"
+    "Leave it in the Sun"
+    "The Beauty of Breathing"
+    "Old Crap"
+     "***BNB"
+     "Monday at the Beach"
+     "Honeymoon Ashtray"
+     "Ohio Tpke"    
+
+[Descriptif]
+- Paragraphe :
+  "NO DREAM is the fourth full-length from Jeff Rosenstock. It comes at a time of unparalleled chaos and
+  confusion, division and despair, the depths of which would have been impossible to predict when much of it
+  was being written over the course of the last few years. And yet the record feels prescient, unexpectedly
+  and uniquely suited for this moment."
+
+[Shop]
+- Article 1 :
+  • "Vinyl + Digital"
+  • "Deluxe Gatefold Jacket w/ Printed Inner Sleeve"
+  • "$21.00"
+  • Bouton : "buy"
+- Article 2 :
+  • "CD + Digital"
+  • "$12.00"
+  • Bouton : "buy"
+- Article 3 :
+  • "Tape + Digital"
+  • "$12.00"
+  • Bouton : "buy"
+- Article 4 :
+  • "Digital"
+  • "$5.00"
+  • Bouton : "buy"
+
+[Pied de page]
+- "© Polyvinyl, 2027"

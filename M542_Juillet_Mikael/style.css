@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 24px;
+}
+
+body,
+button {
+    font-family: Charter, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+nav,
+footer,
+section {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+ul {
+    list-style: none;
+}
+
+nav>ul {
+    display: inline;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-left: 2.5rem;
+}
+
+nav>img {
+    width: 123px;
+    vertical-align: middle;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section#introducing>div {
+    width: 40%;
+    display: inline-block;
+}
+
+img.full-width {
+    width: 100%;
+}
+
+section#introducing>div:first-child {
+    position: relative;
+    margin-right: 4rem;
+    vertical-align: top;
+}
+
+#sticker {
+    position: absolute;
+    right: -17.5%;
+    top: -17.5%;
+    width: 35%;
+}
+
+section#descriptif {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 4rem;
+}
+
+button {
+    background-color: white;
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+section#shop>article {
+    border-bottom: 1px solid black;
+    padding: 1rem 0;
+}
+
+section#shop>article>p {
+    vertical-align: middle;
+    width: 80%;
+}
+
+section#shop>article>p,
+section#shop>article>button {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+section#shop>article:last-child {
+    border: none;
+}
