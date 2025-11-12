@@ -17,29 +17,8 @@ h1 {
     font-size: 6vw;
 }
 
-nav,
-footer,
-section {
-    width: 80%;
-    margin: 3rem auto;
-}
-
 ul {
     list-style: none;
-}
-
-nav>ul {
-    display: inline;
-}
-
-nav>ul>li {
-    display: inline;
-    margin-left: 2.5rem;
-}
-
-nav>img {
-    width: 123px;
-    vertical-align: middle;
 }
 
 a {
@@ -51,13 +30,46 @@ a:hover {
     text-decoration: underline;
 }
 
-section#introducing>div {
-    width: 40%;
-    display: inline-block;
+button {
+    background-color: white;
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 img.full-width {
     width: 100%;
+}
+
+nav,
+footer,
+section {
+    width: 80%;
+    margin: 3rem auto;
+}
+
+nav>ul,
+nav>ul>li {
+    display: inline;
+}
+
+nav>ul>li {
+    margin-left: 2.5rem;
+}
+
+nav>img {
+    width: 123px;
+    vertical-align: middle;
+}
+
+section#introducing>div {
+    width: 40%;
+    display: inline-block;
 }
 
 section#introducing>div:first-child {
@@ -80,17 +92,6 @@ section#descriptif {
     padding: 4rem;
 }
 
-button {
-    background-color: white;
-    padding: 0.25rem 1.5rem;
-    font-size: 1rem;
-}
-
-button:hover {
-    background-color: black;
-    color: white;
-}
-
 section#shop>article {
     border-bottom: 1px solid black;
     padding: 1rem 0;
@@ -101,16 +102,15 @@ section#shop>article>p {
     width: 80%;
 }
 
-section#shop>article>p,
-section#shop>article>button {
+section#shop>article>* {
     display: inline-block;
+}
+
+section#shop>article:last-child {
+    border: none;
 }
 
 footer {
     text-align: center;
     font-size: 0.5rem;
-}
-
-section#shop>article:last-child {
-    border: none;
 }
