@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    /* flex-wrap: wrap; permet la flexisation */
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* align-items: center; */
+    /* align-content: center; */
+    height: 300px;
+    background-color: orange;
+}
+
+section>div {
+    width: 400px;
+    background-color: rgb(212, 240, 215);
+    border: 3px solid black;
+    height: 30px;
+    /* 
+    flex-grow  -> summ of all (espace libre) -> give the number
+    flex : [grow][shrik][basis]
+    */
+}
+
+/* justify content -> axe main  flex-start ...
+    align.items -> flex-start ... -> des éléments entre eux
+    align-content -> du groupe 
+    -> quel est la dif entre space beetween item et content ? 
+*/
