@@ -14,6 +14,7 @@ section>div {
     background-color: rgb(212, 240, 215);
     border: 3px solid black;
     height: 30px;
+    order: 1; 
     /* 
     flex-grow  -> summ of all (espace libre) -> give the number
     flex : [grow][shrik][basis]
