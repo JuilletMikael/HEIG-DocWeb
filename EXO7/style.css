@@ -95,13 +95,12 @@ main:has(#gallery > div:hover) {
     transform: rotate(360deg);
 }
 
-
 /* LIBRARY */
 
 #library {
     background-color: #000000;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #library > div {
@@ -109,6 +108,7 @@ main:has(#gallery > div:hover) {
     border: 1px solid #000000;
     padding: 1rem;
     transition: var(--transition);
+    justify-items: center;
 }
 
 #library > div:hover {
