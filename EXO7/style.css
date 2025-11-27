@@ -46,12 +46,16 @@ nav {
     color: #ffffff;
     font-weight: 800;;
     padding: 2rem;
-    display: flex;
+    display: flex; /* permet de disposer flexement les enfants directes */
     justify-content: space-around;
 }
 
 nav > a {
     color: #ffffff;
+}
+
+nav > a:first-child {
+    padding: 5rem;
 }
 
 /* MAIN */
@@ -100,7 +104,7 @@ main:has(#gallery > div:hover) {
 #library {
     background-color: #000000;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 #library > div {
